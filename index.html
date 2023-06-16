@@ -1,7 +1,781 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arct - Just another Arcitect landing page</title>
+    <!-- favicon icon -->
+    
+    <!-- owl.carousel.min.css -->
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <!-- default css -->
+    <link rel="stylesheet" href="static/css/theme_style.css">
+    <link rel="stylesheet" href="static/css/reboot_media.css">
+    <link rel="stylesheet" href="static/css/reboot_style.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <a id="button" style="background-image: url('static/image/back-to-top.png');"></a>
+
+    <!--** preloader **-->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--** header area **-->
+    <header id="sticky-header">
+        <div class="cc-header-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main-wrapper">
+                        <nav class="navbar">
+                            <div class="logo-and-icon">
+                                <a href="#" class="navbar-brand"><img src="static/picture/logo.png" alt="LOGO"></a>
+                                <!-- navebar-toggler -->
+                                <button type="button" class="navbar-toggler">
+                                    <img src="static/picture/menu.png" alt="">
+                                </button>
+                                <!-- end navebar-toggler -->
+                            </div>
+                            <div class="navbar-collapse">
+                                <ul class="navbar-nav">
+                                    <li onclick="scrollto('home')"><a href="#">Home</a></li>
+                                    <li onclick="scrollto('about')"><a href="#">about</a></li>
+                                    <li onclick="scrollto('gallery')"><a href="#">gallery</a></li>
+                                    <li onclick="scrollto('review')"><a href="#">review</a></li>
+                                    <li onclick="scrollto('faq')"><a href="#">faq</a></li>
+                                    <li onclick="scrollto('team')"><a href="#">team</a></li>
+                                    <li onclick="scrollto('blog')"><a href="#">blog</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="navbar-button">
+                                <button class="cc-btn" onclick="scrollto('contact')">Contact us</button>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--** end header area **-->
+
+
+    <!--** slider area **-->
+    <div class="cc-main-slider-area">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="slider-area">
+                    <div class="slider owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="single_slider d-flex align-items-center slider-thumb" style="background-image: url('static/image/slider-01.jpg');">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="slider-content">
+                                                        <h4> Solutions For Stylish In New Way</h4>
+                                                        <h1>House the future</h1>
+                                                        <button class="cc-btn">Shop now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--** end slider area **-->
+
+
+    <!--** about area **-->
+
+    <section>
+        <div class="cc-about-area" id="about">
+            <div class="container">
+                <div class="about-title">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="section-title">
+                                <h2>Arct's <br> Masterpiece</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="about-info">
+                                <h3>These is the showcase from our best works</h3>
+                                <p>Architecture is a New-York-based studio practice focused on modern design
+                                    interiors and landscapes. From our inception in 2007, we have delivered toss
+                                    start to finish, ensuring that the ideas conceived in the beginning.</p>
+                                <button class="cc-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--** about area **-->
+
+    <!--** gallery area **-->
+
+    <section>
+        <div class="cc-gallery-area" id="gallery">
+            <div class="container">
+                <div class="section-title">
+                    <h4>Our Best Plans</h4>
+                    <h2>Recent Project</h2>
+                </div>
+                <div class="row">
+                    <div class="gallery owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center mb-gallery">
+                                        <div class="gallery-section">
+                                            <div class="gallery-img">
+                                                <img src="static/picture/01.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single_slider align-items-center">
+                                        <div class="gallery-section">
+                                            <div class="gallery-img">
+                                                <img src="static/picture/04.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center mb-gallery">
+                                        <div class="gallery-section">
+                                            <div class="gallery-img">
+                                                <img src="static/picture/02.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single_slider align-items-center">
+                                        <div class="gallery-section">
+                                            <div class="gallery-img">
+                                                <img src="static/picture/05.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center mb-gallery">
+                                        <div class="gallery-section">
+                                            <div class="gallery-img">
+                                                <img src="static/picture/03.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single_slider align-items-center">
+                                        <div class="gallery-section">
+                                            <div class="gallery-img">
+                                                <img src="static/picture/06.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--** end gallery area **-->
+
+
+    <!--** parallax area **-->
+    <section>
+        <div class="cc-parallax-area" style="background-image: url('static/image/parallax.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="parallax-content">
+                            <h4> Solutions For Stylish In New Way</h4>
+                            <h2>House Design ideas</h2>
+                            <button class="cc-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** end parallax  area **-->
+
+    <!--** testimonial-area **-->
+    <section>
+        <div class="cc-testimonial-area" id="review">
+            <div class="container">
+                <div class="section-title">
+                    <h4>Testimonial</h4>
+                    <h2>Our Client Says</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="testimonial owl-carousel owl-loaded owl-drag">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item">
+                                        <div class="single_slider align-items-center">
+                                            <div class="testimonial-content">
+                                                <div class="testimonial-icon">
+                                                    <img src="static/picture/quote.png" alt="">
+                                                    <div class="testimonial-title">
+                                                        <h3>Cherlyn Long</h3>
+                                                        <h4>Designer</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-description">
+                                                    <p>Choosing online studies was the best way to do its the
+                                                        internet
+                                                        is fast,cheap & popular and its easy to
+                                                        communicate in social media with native speaker</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="single_slider align-items-center">
+                                            <div class="testimonial-content">
+                                                <div class="testimonial-icon">
+                                                    <img src="static/picture/quote.png" alt="">
+                                                    <div class="testimonial-title">
+                                                        <h3>Jina Grindevald</h3>
+                                                        <h4>C.E.O</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-description">
+                                                    <p>Choosing online studies was the best way to do its the
+                                                        internet
+                                                        is fast,cheap & popular and its easy to
+                                                        communicate in social media with native speaker</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--** end testimonial area **-->
+
+    <!--** FAQ area **-->
+    <section>
+        <div class="cc-faq-area" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="faq-thumb">
+                            <img src="static/picture/faq.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-section">
+                            <h4>Our Benefits</h4>
+                            <h2>Any Question</h2>
+                            <div class="accordion-area">
+                                <ul class="accordion-dropdown">
+                                    <li>
+                                        <h3 style="background-image: url('static/image/back-to-top.png');">Our Principles</h3>
+                                        <div class="answer">
+                                            <p> It is a long established fact that a reader will be distrac
+                                                here, content here',look like readable</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>Work Ethics</h3>
+                                        <div class="answer">
+                                            <p>It is a long established fact that a reader will be distrac
+                                                here, content here',look like readable </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>What We Do</h3>
+                                        <div class="answer">
+                                            <p>It is a long established fact that a reader will be distrac
+                                                here, content here',look like readable</p>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>Our Plans</h3>
+                                        <div class="answer">
+                                            <p>It is a long established fact that a reader will be distrac
+                                                here, content here',look like readable </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--** end FAQ area **-->
+
+    <!--** team area **-->
+    <section>
+        <div class="cc-team-area" id="team">
+            <div class="container">
+                <div class="section-title">
+                    <h4>Best Experience</h4>
+                    <h2>Our Best Team</h2>
+                </div>
+                <div class="row">
+                    <div class="team owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="team-section">
+                                            <div class="team-img">
+                                                <img src="static/picture/011.jpg" alt="">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3>Steve Monex</h3>
+                                                <h4>sr.Arcitecture</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="team-section">
+                                            <div class="team-img">
+                                                <img src="static/picture/021.jpg" alt="">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3>mocks john</h3>
+                                                <h4> jr.Arcitecture</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="team-section">
+                                            <div class="team-img">
+                                                <img src="static/picture/031.jpg" alt="">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3>ali max</h3>
+                                                <h4>CEO</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="team-section">
+                                            <div class="team-img">
+                                                <img src="static/picture/041.jpg" alt="">
+                                            </div>
+                                            <div class="team-content">
+                                                <h3>caves mons</h3>
+                                                <h4>Designer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** team area **-->
+
+    <!--** contact area **-->
+    <section>
+        <div class="cc-contact-area" style="background-image: url('static/image/parallax-02.jpg');" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-form-area">
+                            <div class="section-title">
+                                <h2>Contact Us</h2>
+                            </div>
+                            <div class="form-area">
+                                <form action="#" method="POST" id="cc-form">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input type="text" placeholder="Name">
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="text" placeholder="Email">
+                                        </div>
+                                        <div class="col-12">
+                                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="cc-btn">Send</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                                <div id="status"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** end contact area **-->
+
+    <!--** blog area **-->
+    <section>
+        <div class="cc-blog-area" id="blog">
+            <div class="container">
+                <div class="section-title">
+                    <h4>blog</h4>
+                    <h2> Latest News </h2>
+                </div>
+                <div class="row">
+                    <div class="blog owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="blog-section">
+                                            <img src="static/picture/012.jpg" alt="">
+                                            <div class="blog-content">
+                                                <h5>04 jan, 2023</h5>
+                                                <h3>Contrary To Popular Belief</h3>
+                                                <p> That a reader will
+                                                    distracted by the readable content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="blog-section">
+                                            <img src="static/picture/022.jpg" alt="">
+                                            <div class="blog-content">
+                                                <h5>04 jan, 2023</h5>
+                                                <h3> Is simply random text</h3>
+                                                <p>It is a long established fact that a reader will
+                                                    distracted </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="blog-section">
+                                            <img src="static/picture/032.jpg" alt="">
+                                            <div class="blog-content">
+                                                <h5>04 jan, 2023</h5>
+                                                <h3>variations of passages</h3>
+                                                <p>It is a long established fact
+                                                    distracted by the readable content</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** end blog area **-->
+
+    <!--** brand area **-->
+    <section>
+        <div class="cc-brand-area">
+            <div class="container">
+                <div class="row">
+                    <div class="brand owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="single_slider d-flex jc-around align-items-center">
+                                        <div class="brand-img">
+                                            <img src="static/picture/013.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider d-flex jc-around align-items-center">
+                                        <div class="brand-img">
+                                            <img src="static/picture/023.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider d-flex jc-around align-items-center">
+                                        <div class="brand-img">
+                                            <img src="static/picture/033.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider d-flex jc-around align-items-center">
+                                        <div class="brand-img">
+                                            <img src="static/picture/042.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider d-flex jc-around align-items-center">
+                                        <div class="brand-img">
+                                            <img src="static/picture/051.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** end  brand area **-->
+
+    <!--** instagram area **-->
+    <section>
+        <div class="cc-instagram-area">
+            <div class="container">
+                <div class="section-title">
+                    <h4>Follow Now</h4>
+                    <h2>#Instagram</h2>
+                </div>
+                <div class="row">
+                    <div class="instagram owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="instagram-section">
+                                            <div class="instagram-img">
+                                                <img src="static/picture/014.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="instagram-section">
+                                            <div class="instagram-img">
+                                                <img src="static/picture/024.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="instagram-section">
+                                            <div class="instagram-img">
+                                                <img src="static/picture/034.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="instagram-section">
+                                            <div class="instagram-img">
+                                                <img src="static/picture/043.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="single_slider align-items-center">
+                                        <div class="instagram-section">
+                                            <div class="instagram-img">
+                                                <img src="static/picture/052.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** instagram area **-->
+
+    <!--** footer area **-->
+    <section>
+        <div class="cc-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-widgets">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="single-widgets">
+                                <div class="widgets-content">
+                                    <div class="widgets-title">
+                                        <h3>Contact Us</h3>
+                                    </div>
+                                    <div class="widgets-link">
+                                        <ul>
+                                            <li>
+                                                <a href="#">2334 Peterson Street Kingston <br> UK London</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">+123-456-7890</a>
+
+                                            </li>
+                                            <li>
+                                                <a href="#">admin.info@mail.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="single-widgets">
+                                <div class="widgets-content">
+                                    <div class="widgets-title">
+                                        <h3>Information</h3>
+                                    </div>
+                                    <div class="widgets-link">
+                                        <ul>
+                                            <li>
+                                                <a href="#">About us</a>
+
+                                            </li>
+                                            <li>
+                                                <a href="#">Portfolio</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">News</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="single-widgets">
+                                <div class="widgets-content">
+                                    <div class="widgets-title">
+                                        <h3>Use link</h3>
+                                    </div>
+                                    <div class="widgets-link">
+                                        <ul>
+                                            <li>
+                                                <a href="#">blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">gallery</a>
+
+                                            </li>
+                                            <li>
+                                                <a href="#">faq</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="col-12">
+                            <ul>
+                                <li>
+                                    <a href="#"> Copyright &copy; 2023.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--** end footer area **-->
+
+    <!-- jquery-3.6.3.js -->
+    <script src="static/js/jquery-3.6.3.js"></script>
+    <!-- popper.min.js -->
+    <script src="static/js/popper.min.js"></script>
+    <!-- bootstrap.min.js -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- owl.carousel.min.js -->
+    <script src="static/js/owl.carousel.min.js"></script>
+    <!-- ajax-mail.js -->
+    <script src="static/js/ajax-mail.js"></script>
+    <!-- script.js (use responsive nav) -->
+    <script src="static/js/script.js"></script>
+    <!-- script.js  custom.js -->
+    <script src="static/js/custom.js"></script>
+
+    <!-- menu link close -->
+    <script>
+        $(function () {
+            $('.navbar-nav li a').on('click', function () {
+                if ($('.navbar-toggler').css('display') != 'none') {
+                    $(".navbar-toggler").trigger("click");
+                }
+            });
+        });
+
+    </script>
+    <!-- One page script -->
+
+    <script type="text/javascript">
+        function scrollto(div) {
+            $('html,body').animate(
+                {
+                    scrollTop: $("#" + div).offset().top
+                }, 'slow');
+        }
+    </script>
+    <!-- end One page script -->
+
 </body>
+
 </html>

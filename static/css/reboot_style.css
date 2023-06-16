@@ -1,0 +1,96 @@
+/****** cc-import-typography-reboot ******/
+ 
+@import url('css2.css');
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Krona One', sans-serif;
+	background-color: #fff;
+	color: #222;
+	font-size: 13px;
+	font-weight: 400px;
+}
+
+
+/****** cc-commen-style-reboot ******/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 0;
+	color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-size: 58px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 44px;
+	text-transform: capitalize;
+	color: #222;
+
+}
+
+h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #222;
+}
+
+h4 {
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #222;
+}
+
+ 
+
+p {
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+	color: #222;
+}
+
+
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+a:hover {
+	color: #222;
+}
+
+
+/****** gc-btn-style-reboot ******/
+
+
+.cc-btn {
+	background-color: #222;
+	border-radius: 0;
+	padding: 15px 40px;
+	color: #fff;
+	font-size: 13px;
+	border: none;
+	text-align: center;
+}
+
+ 

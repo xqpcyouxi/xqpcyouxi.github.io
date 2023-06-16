@@ -1,0 +1,430 @@
+/* cc reboot media */
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* cc responsive media */
+
+@media (min-width: 320px) {
+	.container {
+		max-width: 320px;
+	}
+
+	/* cc navbar */
+
+	.cc-header-area .top-wrapper {
+		display: none;
+	}
+	.navbar {
+		background-color: #0a0a0a;
+	}
+
+	.cc-header-area .navbar .navbar-button .cc-btn {
+		display: none;
+	}
+	.navbar-nav>li>a {
+		border: none;
+		display: block;
+		position: relative;
+		transition: all 0.4s ease;
+		text-transform: capitalize;
+		font-size: 16px;
+		border-bottom: 1px solid #e5e5e5;
+		font-weight: 400;
+		border-radius: 0;
+		line-height: 35px;
+		padding: 5px 0;
+	}
+
+	
+
+	/** slider area **/
+
+	.cc-main-slider-area {
+		overflow: hidden;
+		position: relative;
+		top: 68px;
+	}
+
+	.cc-main-slider-area .slider-content h4 {
+		font-weight: 400;
+		font-size: 12px;
+		color: #fff;
+	}
+
+	.cc-main-slider-area .slider-content h1 {
+		font-size: 37px;
+		padding: 20px 0;
+	}
+
+	.cc-main-slider-area .slider-content .btn {
+		padding: 6px 15px;
+
+	}
+
+	.cc-main-slider-area .slider-thumb {
+		height: 250px;
+	}
+
+
+	/** about area **/
+	.cc-about-area {
+		text-align: center;
+	}
+
+	.cc-about-area .section-title h2 {
+		font-size: 34px;
+	}
+
+	.cc-about-area .about-info {
+		margin: 20px 0 20px 0;
+	}
+
+
+	/** parallax area **/
+	.cc-parallax-area .parallax-content h4 {
+		font-size: 10px;
+	}
+
+	.cc-parallax-area .parallax-content h2 {
+		font-size: 31px;
+	}
+
+
+	/** testimonial-area **/
+	.cc-testimonial-area .section-title h2 {
+		font-size: 28px;
+	}
+
+
+	/**  faq area **/
+	.cc-faq-area .faq-section {
+		text-align: center;
+	}
+
+	.cc-faq-area .faq-section h2 {
+		font-size: 28px;
+	}
+
+
+	/** team area **/
+	.cc-team-area .section-title h2 {
+		font-size: 28px;
+	}
+
+
+	/** contact area **/
+	.contact-form-area .section-title h2 {
+		font-size: 25px;
+	}
+
+
+	/** blog area **/
+	.cc-blog-area .section-title h2 {
+		font-size: 34px;
+	}
+
+
+	/**  instagram-area **/
+	.cc-instagram-area .section-title h2 {
+		font-size: 30px;
+	}
+
+
+
+	/** footer area **/
+	.cc-footer-area .footer-widgets .single-widgets {
+		margin-bottom: 30px;
+	}
+
+
+}
+
+
+
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+
+	/* cc navbar */
+
+	.navbar-nav>li>a {
+		border: none;
+		display: block;
+		position: relative;
+		transition: all 0.4s ease;
+		text-transform: capitalize;
+		font-size: 16px;
+		border-bottom: 1px solid #e5e5e5;
+		font-weight: 400;
+		border-radius: 0;
+		line-height: 35px;
+		padding: 5px 0;
+	}
+
+	.main-wrapper .navbar .btn-area {
+		display: none;
+	}
+
+
+	/** slider area **/
+	.cc-main-slider-area .slider-content h4 {
+		font-size: 18px;
+	}
+
+	.cc-main-slider-area .slider-content h1 {
+		font-size: 58px;
+		padding: 60px 0;
+	}
+
+	.cc-main-slider-area .slider-content p {
+		display: none;
+	}
+
+	.cc-main-slider-area .slider-content .btn {
+		padding: 15px 40px;
+
+	}
+
+	.cc-main-slider-area .slider-thumb {
+		height: 400px;
+	}
+
+
+}
+
+
+
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+
+	/* cc navbar */
+
+	.navbar-nav>li>a {
+		border: none;
+		display: block;
+		position: relative;
+		transition: all 0.4s ease;
+		text-transform: capitalize;
+		font-size: 16px;
+		border-bottom: 1px solid #222;
+		font-weight: 400;
+		border-radius: 0;
+		line-height: 35px;
+		padding: 5px 0;
+	}
+
+	/** slider area **/
+	.cc-main-slider-area .slider-content p {
+		display: none;
+	}
+
+	.main-wrapper .navbar .btn-area {
+		display: none;
+	}
+	
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+
+	/* cc navbar */
+
+	.cc-header-area .top-wrapper {
+		display: flex;
+	}
+
+	.navbar {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		position: relative;
+		background-color: transparent;
+	}
+
+	.cc-header-area .navbar .navbar-button .cc-btn {
+		display: block;
+	}
+
+	.navbar-toggler {
+		display: none;
+	}
+
+	.logo-and-icon {
+		flex: 0 0 100px;
+		border-bottom: none;
+		padding: 0;
+	}
+
+	.navbar-collapse {
+		display: block !important;
+		overflow-y: hidden;
+		flex: 1 0 auto;
+		background-color: transparent;
+		padding: 0;
+		width: auto;
+	}
+
+	.navbar-nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	.navbar-nav>li>a {
+		border-bottom: none;
+		margin: 0 0.4rem;
+		padding: 25px 20px;
+		font-size: 13px;
+		text-transform: capitalize;
+		font-weight: 500;
+		letter-spacing: 0.2px;
+	}
+
+	.sub-menu {
+		position: absolute;
+		width: 265px;
+		top: 100%;
+		background: #1a1a1a;
+	}
+
+	.navbar-nav>li:hover .sub-menu {
+		display: grid !important;
+		padding: 25px;
+	}
+
+	.sub-menu-item {
+		padding-left: 0;
+	}
+
+
+
+	/** slider area **/
+	.cc-main-slider-area {
+		top: 0;
+	}
+
+	.cc-main-slider-area .slider-thumb {
+		height: 923px;
+	}
+
+
+
+	/** about area **/
+	.cc-about-area {
+		text-align: left;
+	}
+
+	.cc-about-area .section-title h2 {
+		font-size: 44px;
+	}
+
+	.cc-about-area .about-info {
+		margin: 0 0 0 80px;
+	}
+
+
+
+	/** parallax area **/
+	.cc-parallax-area .parallax-content h4 {
+		font-size: 13px;
+	}
+
+	.cc-parallax-area .parallax-content h2 {
+		font-size: 58px;
+	}
+	
+
+	/** testimonial-area **/
+	.cc-testimonial-area .section-title h2 {
+		font-size: 44px;
+	}
+
+
+	/** faq area **/
+	.cc-faq-area .faq-section {
+		text-align: left;
+	}
+
+	.cc-faq-area .faq-section h2 {
+		padding: 25px 0;
+		font-size: 44px;
+	}
+
+
+	/** team area **/
+	.cc-team-area .section-title h2 {
+		font-size: 44px;
+	}
+
+
+	/** contact area **/
+	.contact-form-area .section-title h2 {
+		font-size: 44px;
+	}
+
+
+	/** blog area **/
+	.cc-blog-area .section-title h2 {
+		font-size: 44px;
+	}
+
+
+	/** instagram-area **/
+	.cc-instagram-area .section-title h2 {
+		font-size: 44px;
+	}
+
+
+
+	/** footer area **/
+	.cc-footer-area .footer-widgets .single-widgets {
+		margin-bottom: 40px;
+	}
+
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+
+	/** about area **/
+
+	.cc-about-area .about-description {
+		margin: 25px 0 0 20px;
+	}
+
+	/** end about area **/
+}
