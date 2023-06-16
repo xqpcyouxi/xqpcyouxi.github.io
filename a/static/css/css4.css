@@ -1,0 +1,281 @@
+html {
+    overflow-x: hidden !important;
+}
+
+ .wp-list-table.plugins .theme-title {
+    padding-right: 12px;
+    white-space: nowrap;
+    display: none;
+}
+ .wp-list-table.plugins .theme-title {
+    padding-right: 12px;
+    white-space: nowrap;
+    display: none;
+}
+.single-featured-image-w img {
+    width: 100%;
+}
+div.sharedaddy h3.sd-title {
+    margin: 0 0 0.5em 0;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+div.sharedaddy h3.sd-title:before {
+    margin-bottom: 0.4em;
+    margin-top: 20px;
+}
+.pre-footer div.wpcf7 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 26px 20px 15px 20px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+}
+.pre-footer div.wpcf7 .wpcf7-submit {
+    padding: 6px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+.single-ingredients h3:after {
+    content: "Ingrédients";
+    font-size: 34px;
+}
+.ingredient-serves-label:before {
+    content: "Ajuster la portion";
+    font-size: 13px;
+}
+.single-nutritions h3:after {
+    content: "Information nutritionnelle pour 1 portion";
+    font-size: 28px;
+	display: flex;
+}
+.single-nutritions i{
+    clear: both;
+    float: left;
+}
+.single-ingredients h3,
+.ingredient-serves-label,
+.single-nutritions h3{
+    font-size: 0px;
+}
+
+input#coupon_code {
+    width: 50%;
+	    text-align: center;
+}
+
+
+.woocommerce form .form-row input.input-text{
+    height: 38px;
+    text-indent: 7px;
+}
+
+.woocommerce-billing-fields h3:before {
+    content: "Détails de la facturation";
+    font-size: 24px;
+}
+.woocommerce-additional-fields h3:before {
+    content: "Information additionnelle";
+    font-size: 24px;
+}
+
+h3#order_review_heading:before {
+    content: "Votre commande";
+    font-size: 24px;
+}
+h2.woocommerce-order-details__title:before{
+	 content: "Détails de la commande";
+    font-size: 28px;
+}
+
+h2.woocommerce-column__title:before{
+	content: "Adresse de facturation";
+    font-size: 28px;
+}
+
+
+
+#singlePostComments h3#reply-title:before{
+    content: "Laisser un commentaire";
+    font-size: 24px;
+}
+
+.archive-item-comments a:after{
+	content: "commentaires";
+    font-size: 14px;
+}
+.archive-item-read-more-btn a:before{
+	content: "En savoir plus";
+    font-size: 16px;
+}
+
+
+.wc-proceed-to-checkout a.checkout-button.button.alt.wc-forward:before{
+	content: "Passer à la caisse";
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.archive-item-comments a,
+.archive-item-read-more-btn a,
+.cart_totals h2,
+th.product-price,
+.coupon button.button{
+    font-size: 0px !important;
+}
+.coupon button.button{
+height:37px;
+}
+
+.cart_totals h2:before{
+	content: "Total panier";
+    font-size: 32px;
+}
+th.product-price:before{
+	content: "Prix";
+    font-size: 17px;
+}
+
+.coupon button.button:before{
+	content: "Appliquer";
+    font-size: 16px;
+	    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+h2.woocommerce-column__title:before,
+.woocommerce-billing-fields h3,
+.woocommerce-additional-fields h3,
+h3#order_review_heading,
+h2.woocommerce-order-details__title,
+h2.woocommerce-column__title,
+th.product-name,
+th.product-total,
+tr.cart-subtotal th,
+th.product-subtotal,
+#singlePostComments h3#reply-title,
+.wc-proceed-to-checkout a.checkout-button.button.alt.wc-forward,
+.cart_totals h2,
+th.product-quantity{
+    font-size: 0px;
+}
+
+th.product-name:before {
+    content: "Produit" !important;
+	    font-size: 17px;
+}
+
+th.product-total:before,
+tr.cart-subtotal th:before,
+th.product-subtotal:before{
+    content: "Sous total";
+	    font-size: 17px;
+	line-height: 24px;
+}
+
+
+th.product-quantity:before{
+    content: "Quantité";
+	    font-size: 17px;
+	line-height: 24px;
+}
+
+
+
+
+
+.footer_form  input {
+    height: 45px;
+    margin-bottom: 14px;
+    border-radius: 0px !important;
+    border: 1px solid #ababab !important;
+}
+.send_btn button#submit {
+    width: 100%;
+    height: 45px;
+}
+#product_section li {
+    padding-bottom: 16px;
+}
+section#share_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 767px) {
+#sb_instagram.sbi_col_3 #sbi_images .sbi_item {
+    width: 33% !important;
+    float: left !important;
+    height: 90px !important;
+}
+.progress-wrap.btn-right-side {
+    right: 15px !important;
+    bottom: 20px !important;
+}
+.mobile-header-w .mobile-header .mobile-menu-toggler {
+    padding-left: 15px !important;
+}
+.mobile-header-w .mobile-header .mobile-logo img {
+    max-width: 180px !important;
+    position: relative;
+    left: -10px;
+    top: 4px;
+}
+}
+.add-to-meal-plan-btn-w {
+    display: none !important;
+}
+
+
+
+@media (max-width: 454px){
+.recipe-floating-box .print-share-recipe-btn-w {
+    display: block;
+}
+
+.print-share-recipe-btn-w .share-recipe-btn{
+    color: #000000 !important;
+	}
+	.print-share-recipe-btn-w a.print-recipe-btn {
+    display: none;
+}
+	
+.main-footer.with-social.color-scheme-light {
+    padding-bottom: 54px;
+}
+.progress-wrap.btn-right-side {
+    bottom: 57px !important;
+}
+.progress-wrap::after {
+    color: #000000d9;
+}	
+	
+}
+
+
+#adminmenu div.wp-menu-name {
+    padding: 8px 8px 8px 36px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+	display:none;
+}
+
+
+
+
+
+
+
